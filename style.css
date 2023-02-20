@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(255, 149, 199),rgb(255, 255, 255));
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 20px;
+    font-family:'Courier New';
+    }
+span{
+font-size: 90px;
+ } 
+   
+button{
+    background-color: rgb(255, 84, 147);
+    color: black ;
+    padding: 30px;
+    border-radius: 35px;
+    font-size: 30px;
+    font-family:'Courier New';
+    font-weight: 900;
+    margin: 10px;
+    cursor: pointer;
+ }
+
